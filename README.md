@@ -45,7 +45,7 @@ Các giải thích về cách đọc repo có thể được tìm thấy trong p
 ## Lời kết
 Tác giả của bài phân tích là Đỗ Quang Minh, sinh viên năm cuối chuyên ngành HTTTQL của Đại học Kinh tế Quốc dân, hiện đã nhận bằng tốt nghiệp. Em làm dự án này với mục đích để nghiên cứu thêm về sự ảnh hưởng của các yếu tố kinh tế đối với các doanh nghiệp, tiếp thu thêm kiến thức về các ngành kinh tế, mài giũa kỹ năng phân tích dữ liệu sẵn có của bản thân, học thêm nhiều kiến thức khác và sau cùng để thỏa mãn niềm đam mê với phân tích, xử lý và nghiên cứu thông tin với hy vọng có thể có một công việc trong ngành dữ liệu, ngách phân tích. 
 
-Tất cả những kiến thức trong bài đều đến từ việc nghiên cứu, tham khảo và tự học. 
+Tất cả những kiến thức trong bài đều đến từ việc nghiên cứu, tham khảo và tự học. Những đường link trích dẫn đều được đính kèm trong bài.
 Em cảm ơn các độc giả đã đọc tới phần này của file. 
 Cảm ơn hơn nữa nếu mọi người đã đọc hết.
 
