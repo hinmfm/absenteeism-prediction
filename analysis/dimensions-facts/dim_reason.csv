@@ -1,0 +1,5 @@
+﻿reason_category,Max of reason_A,Max of reason_B,Max of reason_C,Max of reason_D
+0,1,0,0,0
+1,0,1,0,0
+2,0,0,1,0
+3,0,0,0,1
