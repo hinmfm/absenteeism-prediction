@@ -22,4 +22,4 @@
 | Childern    	| Số con cái	|
 | Pets       	| Số thú cưng 	|
 | Absenteeism Time in Hours         	| Thời gian nhân viên vắng mặt ở nơi làm	|
-| AITH_prediction       	| Thời gian vắng mặt dự đoán 	
+| ATIH_prediction       	| Thời gian vắng mặt dự đoán 	
