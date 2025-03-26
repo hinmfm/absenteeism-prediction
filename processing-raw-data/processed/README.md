@@ -2,7 +2,7 @@
 
 ## [absenteeism-data-processing.ipynb](https://github.com/hinmfm/absenteeism-prediction/blob/main/processing-raw-data/processed/absenteeism-data-processing.ipynb)
 - File chứa quy trình xử lý dữ liệu từ đầu tới hoàn thiện trong Python. Quy trình này bao gồm: Nhập dữ liệu, làm sạch dữ liệu, xử lý dữ liệu, làm giàu dữ liệu và xuất dữ liệu.
-- Tất cả cách thực hiện các bước trong quy trình đã được mô tả trong file.
+- Tất cả các bước thực hiện đã được mô tả trong file.
 
 ## [clean-absenteeism-data.csv](https://github.com/hinmfm/absenteeism-prediction/blob/main/processing-raw-data/processed/cleaned-absenteeism-data.csv)
 - Chứa bảng dữ liệu mới đã được làm sạch và xuất ra dưới dạng file .csv.<b> Data Dictionary </b> của dữ liệu như sau:
