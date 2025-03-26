@@ -1,6 +1,6 @@
 # Phân tích tình hình vắng mặt
 
-Sử dụng bộ dữ liệu về tình hình vắng mặt tại một công ty, repo này sẽ tiến hành phân tích bộ dữ liệu này. Quá trình phân tích sẽ bao gồm các quy trình như phía dưới. Ngoài ra, đường dẫn tới vị trí thực hiện quy trình cũng đã được để ở cạnh tên quy trình: 
+Sử dụng bộ dữ liệu về tình hình vắng mặt tại một công ty, repo này sẽ tiến hành phân tích bộ dữ liệu này. Quá trình phân tích sẽ bao gồm các quy trình như phía dưới, các quy trình này có thể được truy cập thông qua việc bấm vào tên quy trình.
 1. [Hiểu bài toán kinh tế](#Bài-toán-kinh-tế) 
 2. [Thu thập dữ liệu](https://github.com/hinmfm/absenteeism-prediction/blob/main/processing-raw-data/processed/absenteeism-data-processing.ipynb)
 3. [Tiền xử lý dữ liệu](https://github.com/hinmfm/absenteeism-prediction/blob/main/processing-raw-data/processed/absenteeism-data-processing.ipynb)
