@@ -7,7 +7,7 @@ Các DSD phía dưới được thiết kế riêng cho mục đích phân tích
 
 ![image](https://github.com/user-attachments/assets/985218fd-dd50-42f0-947f-cee1e02337d8)
 
-2. Sơ đồ DSD chi tiết (giải thích tốt hơn, vẽ bởi tác giả):
+2. Sơ đồ DSD chi tiết <b>(giải thích tốt hơn, vẽ bởi tác giả):</b>
 
 ![image](https://github.com/user-attachments/assets/ccef3157-c87a-4dc7-8e08-1a5556defe90)
 
