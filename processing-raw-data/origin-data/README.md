@@ -1,4 +1,4 @@
-# Data Dictionary: absenteeism-data
+# Data Dictionary: [absenteeism-data.csv](https://github.com/hinmfm/absenteeism-prediction/blob/main/processing-raw-data/origin-data/absenteeism-data.csv)
 
 | Tên cột      	| Ý nghĩa|
 |--------------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
