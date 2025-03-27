@@ -42,6 +42,12 @@ Tổng số giờ vắng mặt của tất cả nhân viên trong khoảng thờ
 
 Phần lớn các nhân viên vắng mặt rơi vào độ tuổi trung niên có một con và không có thú cưng, với độ tuổi trung bình của các nhân viên này là 36.42, số con cái trung bình là 1.02 và số thú cưng trung bình là 0.69. Ngoài ra, những người vắng mặt hầu hết đều bị thừa cân, với BMI trung bình của họ là 26.74. Để tham khảo thêm về chia khoảng BMI, có thể nhấp vào link [này](https://medlatec.vn/media/24658/file/Ch%e1%bb%89-s%e1%bb%91-BMI-4+(3).png).
 
+Mỗi nhân viên vắng mặt có khối lượng công việc trung bình hằng ngày là 271.80 phút. Trung bình mỗi ngày các nhân viên này phải di chuyển gần 30km (29.89) để tới công ty, với chi phí đi lại trung bình là 222.35$.
+
 ## Các thông tin giá trị.
-### Các xu hướng về thời gian và lý do.
+### Các xu hướng về thời gian.
+
+- Các tháng khiến công ty 
+
+![image](https://github.com/user-attachments/assets/6f56acf9-7a4a-4d10-9495-c2a56c840e06)
 
