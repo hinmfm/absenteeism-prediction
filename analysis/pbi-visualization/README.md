@@ -21,7 +21,7 @@ Ta cùng bước vào phần phân tích. Các đầu mục trong phần phân t
         - [Yếu tố công việc](#Yếu-tố-công-việc)
 - [Đề xuất chính sách](#Đề-xuất-chính-sách)
 - [Bài phân tích trên PowerBI đã được thực hiện ra sao?](#Bài-phân-tích-trên-PowerBI-đã-được-thực-hiện-ra-sao?)
-  - [Làm sạch, tổ chức dữ liệu](#Làm-sạch,-tổ-chức-dữ-liệu)
+  - [Làm sạch và tổ chức dữ liệu](#Làm-sạch-và-tổ-chức-dữ-liệu)
   - [Trực quan hóa dữ liệu](#Trực-quan-hóa-dữ-liệu)
 
 ## Bối cảnh
@@ -207,7 +207,7 @@ Dựa trên những dữ liệu đã phân tích, dưới đây là một số n
 
 Trong PowerBI, quá trình chủ yếu diễn ra là giúp dữ liệu trở nên sạch hơn, rõ ràng hơn và phân tích mô tả, vẽ biểu đồ. Các bước thực hiện có thể được tóm tắt lại như sau:
 
-### Làm sạch, tổ chức dữ liệu
+### Làm sạch và tổ chức dữ liệu
 
 1. Thêm các cột điều kiện để chứa tên dữ liệu (ví dụ các dữ liệu ở dạng "value" được đổi sang "name"), đổi tên cột để dữ liệu trở nên dễ hiểu hơn.
 2. Đổi kiểu dữ liệu, thay đổi thứ tự lọc để cột hiển thị theo đúng giá trị và quy luật kỳ vọng.
