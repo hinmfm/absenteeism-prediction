@@ -25,9 +25,9 @@ Trong file README.md này sẽ là giải thích thứ tự file nên đọc the
 Nghiên cứu của [Mehmet et al., 2016](https://www.researchgate.net/profile/Mehmet-Kocakulah/publication/301796227_Absenteeism_Problems_And_Costs_Causes_Effects_And_Cures/links/592c90a1aca27295a81599aa/Absenteeism-Problems-And-Costs-Causes-Effects-And-Cures.pdf?origin=journalDetail&_tp=eyJwYWdlIjoiam91cm5hbERldGFpbCJ9) cho rằng sự vắng mặt gây áp lực lớn về mặt chi phí lên các doanh nghiệp. Nhiều nguồn thông tin từ Canada, trong đó bao gồm cả [Statistics Canada](https://www.statcan.gc.ca/en/start) cho rằng sự vắng mặt chiếm tới xấp xỉ 15-20% chi phí lương được trả cho mỗi nhân viên. Nhật báo [Canada Newswire](https://www.newswire.ca/) cho rằng sự vắng mặt tương ứng với hơn 16 tỷ đô chi phí lương mất mát.
 
 Mức độ ảnh hưởng của sự vắng mặt thường được tính dưới dạng chi phí. Có nhiều công thức được các nhà quản lý sử dụng để tính loại chi phí này. Theo [Kristina et al., 2017](https://journals.sagepub.com/doi/pdf/10.1177/0890117117725842#page=11), CIPROMS Inc. - một doanh nghiệp tầm trung chuyên về hóa đơn y tế và lập trình có trụ sở tại Indianapolis, trong khoảng thời gian từ 2013 tới 2015, đã tính chi phí vắng mặt như sau:
-
-![image](https://github.com/user-attachments/assets/5c7e4572-29d1-4bd1-82d6-2334177876bd)
-
+<p align="center" width=100%>
+   <img width="33%" src="https://github.com/user-attachments/assets/5c7e4572-29d1-4bd1-82d6-2334177876bd">
+</p>
 Trong đó, * là chi phí vắng mặt của mỗi nhân viên, Cost of employer paid sick days số tiền lương doanh nghiệp trả nhân viên nghỉ phép, § là tổng số nhân viên làm việc tại CIPROMS Inc. từ 2013 tới 2015.
 
 ## Mục tiêu phân tích
