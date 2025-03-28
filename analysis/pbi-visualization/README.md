@@ -19,6 +19,10 @@ Ta cùng bước vào phần phân tích. Các đầu mục trong phần phân t
         - [Lý do và thời gian](#Lý-do-và-thời-gian)
         - [Yếu tố đời sống](#Yếu-tố-đời-sống)
         - [Yếu tố công việc](#Yếu-tố-công-việc)
+- [Đề xuất chính sách](#Đề-xuất-chính-sách)
+- [Bài phân tích trên PowerBI đã được thực hiện ra sao?](#Bài-phân-tích-trên-PowerBI-đã-được-thực-hiện-ra-sao?)
+  - [Làm sạch, tổ chức dữ liệu](#Làm-sạch,-tổ-chức-dữ-liệu)
+  - [Trực quan hóa dữ liệu](#Trực-quan-hóa-dữ-liệu)
 
 ## Bối cảnh
 Dữ liệu được sử dụng là dữ liệu mô phỏng cho tình hình vắng mặt tại một công ty được thu thập qua các năm. Ban lãnh đạo muốn tìm ra những <b>xu hướng chính cho sự vắng mặt của các nhân viên tại công ty</b>, sau khi tìm hiểu về những nguyên nhân có thể gây mất mát doanh thu tại một doanh nghiệp.
@@ -44,6 +48,8 @@ Các từ viết tắt được liệt kê theo thứ tự xuất hiện trong b
 - Lý do B là các lý do liên quan tới sức khỏe sinh sản và bẩm sinh.
 - Lý do C là các lý do liên quan tới triệu chứng và nguyên nhân ngoại lai.
 - Lý do D là các lý do cá nhân và môi trường.
+
+_Người đọc có thể xem thêm về cách chia lý do tại [đây](https://drive.google.com/file/d/1G8FA65FgBqxk-xm1g4tqi7NcKUaIV-Rk/view)_
 
 ## Tổng quan
 Tổng số giờ vắng mặt của tất cả nhân viên trong khoảng thời gian nghiên cứu của bộ dữ liệu là 4733 giờ, với mỗi nhân viên vắng mặt sẽ vắng 6.76 tiếng trong một ca làm việc. Trong số các lý do vắng mặt, nhóm lý do gây vắng mặt nhiều nhất là lý do D với 418 lần các nhân viên vắng mặt vì lý do thuộc nhóm này. Nhóm lý do gây mất mát nhiều giờ làm việc nhất là lý do A, với tổng cộng 2269 giờ vắng mặt. 
@@ -133,7 +139,13 @@ Trọng số đối với dự đoán của đã được mô tả khá kỹ tro
 
 ### Kết quả dự đoán
 
-Kết quả dự đoán về số giờ vắng mặt theo mô hình học máy SVR như sau:
+Tổng số giờ vắng được dự đoán xấp xỉ 2982 giờ.
+
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/user-attachments/assets/985c3c55-efc3-407a-9bf6-1174c47331de">
+</p>
+
+Kết quả dự đoán chi tiết về số giờ vắng mặt theo mô hình học máy SVR như sau:
 
 #### Lý do và thời gian
 
@@ -142,16 +154,113 @@ Kết quả dự đoán về số giờ vắng mặt theo mô hình học máy S
     - Các tháng được dự đoán sẽ có số giờ vắng mặt nhiều hơn trung bình lầ tháng 2, 3, 5, 7, 8, 10, 11.
 - Đối với các ngày trong tuần, ta chỉ dự đoán tất cả các ngày việc chính thức (từ thứ Hai tới thứ Sáu) do mẫu số để phân tích của các ngày cuối tuần quá nhỏ (chỉ có lần lượt 4 và 9 nhân viên vắng mặt).
     - Dựa trên biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO THỨ, thứ Hai, Ba, Tư, Năm được dự đoán sẽ có thời gian vắng mặt nhiều hơn trung bình. Thứ Hai và thứ Tư dự kiến sẽ là hai thứ làm mất nhiều thời gian làm việc nhất.
-- Lý do A và lý do C được dự đoán sẽ là 2 lý do gây vắng mặt nhiều nhất, dựa trên biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO LÝ DO.
+- Lý do A và lý do C được dự đoán sẽ là 2 lý do gây vắng mặt nhiều nhất, dựa trên biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO LÝ DO. Lý do B không được đưa vào dự đoán do có mẫu số quá ít (chỉ có 6 nhân viên vắng mặt vì lý do B)
 
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/user-attachments/assets/e6cd5aa6-7082-496d-8190-3470a4cf06b9">
+    <img width="100%" src="https://github.com/user-attachments/assets/d409469d-372b-4a69-8d63-020a83288524">
 </p>
 
 #### Yếu tố đời sống
 
-- Các nhân viên có học Đại học
+- Các nhân viên học Đại học sẽ vắng lâu hơn, một phần do họ chiếm đa số trong những nhân viên vắng. Do vậy, có thể đây là một dự đoán không quá có ý nghĩa.
+- Có sự chênh lệch không quá lớn xét trên mốc trung bình về dự đoán giờ vắng theo độ tuổi, dựa trên biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO TUỔI.
+- Các nhân viên có BMI ở mức bình thường được dự đoán sẽ vắng nhiều hơn so với các mức BMI khác.
+- Trong 2 biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO SỐ CON CÁI và DỰ ĐOÁN GIỜ VẮNG THEO SỐ THÚ CƯNG, số con cái và số thú cưng > 2 đều bị loại khỏi dự đoán do mẫu số quá ít.
+  - Những nhân viên không có con được đự doán có thời gian vắng nhiều hơn trung bình.
+  - Những nhân viên không có thú cưng được dự đoán có thời gian vắng nhiều hơn trung bình.
 
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/user-attachments/assets/2df1f2f9-2f15-4171-aca7-784444f904b2">
+    <img width="100%" src="https://github.com/user-attachments/assets/8f4f1f68-39c4-4b95-a91b-b3a8515dbd09">
 </p>
+
+#### Yếu tố công việc
+
+- Dựa trên biểu DỰ ĐOÁN GIỜ VẮNG THEO CP ĐI LẠI, dù những nhân viên vắng lâu nhất có chi phí đi lại thấp hơn trung bình, phần lớn số giờ làm việc bị mất sẽ do đội ngũ nhân viên có chi phí đi lại cao hơn trung bình gây ra.
+- Các nhân viên nhà gần với công ty sẽ vắng lâu hơn, đồng thời số giờ làm việc bị mất trên trung bình cũng thuộc nhóm nhân viên này, dựa trên biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO KC TỚI CTY.
+- Dù một tập hợp những nhân viên có khối lượng công việc hằng ngày lớn được dự đoán sẽ vắng mặt lâu nhất, những nhân viên làm ít hơn sẽ vắng lâu hơn, theo biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO TBKLCVHN.
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/user-attachments/assets/81650aa8-338f-408c-83cf-5a12860ef562">
+</p>
+
+## Đề xuất chính sách
+
+Dựa trên những dữ liệu đã phân tích, dưới đây là một số những chính sách được đề xuất đề cải thiện tình hình vắng mặt tại công ty:
+- Đối với sự vắng mặt theo thời gian và lý do:
+  - Ban lãnh đạo có thể phát động những chương trình giúp các nhân viên có tinh thần làm việc cao hơn vào các mùa hoặc các tháng nhiều lễ hội. Do dữ liệu này lấy từ một công ty của Mỹ, những tháng đầu tiên và cuối cùng trong năm của họ sẽ có nhiều lễ hội hơn bình thường.
+  - Lý do A và lý do D là 2 lý do khiến các nhân viên vắng mặt lâu nhất.
+    - Như đã giải thích phía trên, lý do A là các lý do liên quan tới bệnh lý, rối loạn sức khỏe. Đây cũng là lý do hiện gây vắng mặt nhiều nhất, đồng thời được dự đoán sẽ gây vắng mặt nhiều nhất. Các gói bảo hiểm sức khỏe có thể được cải thiện để giúp các nhân viên có thể trở lại sớm hơn, hoặc có thể cho nghỉ các nhân viên có vấn đề này để tránh lây lan cũng như giải quyết dứt điểm vấn đề trước khi quay lại công ty.
+    - Về lý do D, hay các lý do cá nhân và môi trường. Ban lãnh đạo có thể liên hệ với các nhà quản lý, trưởng phòng các nhân viên vắng mặt theo lý do để hạn chế việc vắng vì những lý do không hợp lý thuộc nhóm này như hiến máu hoặc vắng mặt không lý do.
+   
+- Đối với sự vắng mặt theo các yếu tố đời sống:
+  - Các nhân viên lớn tuổi, có độ tuổi trên trung bình có thể được hỗ trợ di chuyển để tới công ty nhanh hơn.
+  - Công ty có thể mở phòng trị liệu tâm lý để hỗ trợ về mặt tinh thần đối với các nhân viên không có con, vì đây có thể là yếu tố gây ra bệnh trầm cảm nếu các nhân viên đã ở độ tuổi trung niên, xế chiều.
+  - Các phong trào về nuôi thêm thú cưng cũng có thể được phát động, vì chúng giúp các nhân viên ổn định tinh thần hơn, đồng thời vắng mặt ít hơn.
+  - Đối với BMI, các nhân viên có BMI thấp vắng nhiều hơn. Do vậy, ban lãnh đạo có thể thực hiện những cuộc phỏng vấn, khảo sát về chế độ dinh dưỡng để tìm hiểu nguyên nhân tại sao những nhân viên này lại vắng lâu hơn. Việc có chế độ ăn không phù hợp hoặc dinh dưỡng không đúng, đủ điều độ có thể khiến cơ thể bị thiếu hụt năng lượng và ảnh hưởng tới hiệu suất làm việc nói chung.
+ 
+- Đối với sự vắng mặt theo yếu tố công việc:
+  - Ban lãnh đạo có thể thực hiện các chính sách hỗ trợ các nhân viên có chi phí đi lại quá cao, như hỗ trợ về phí, tăng lương hoặc bố trí các phương tiện di chuyển.
+  - Các nhân viên ở gần vắng mặt nhiều, đồng nghĩa rằng đây có thể là tâm lý chủ quan của những nhân viên nhà gần, hoặc tuyến đường họ lựa chọn để di chuyển chưa hợp lý. Ban lãnh đạo nên thực hiện khảo sát và phỏng vấn để tìm hiểu sâu hơn về vấn đề này.
+  - Các nhân viên có khối lượng công việc hằng ngày ít hơn nên được trao đổi kỹ hơn về công việc hiện tại của họ. Có thể công việc không quá đòi hỏi về mặt kỹ năng đã khiến những nhân viên này sỉnh ra tâm lý chán nản đối với vị trí hiện tại. Việc thay đổi vị trí và khối lượng công việc là cần thiết để thực hiện những cải thiện về thời gian vắng. Các nhân viên có khối lượng công việc lớn cũng có thể được giảm tải để tránh bị căng thẳng dẫn tới việc vắng mặt.
+ 
+## Bài phân tích trên PowerBI đã được thực hiện ra sao?
+
+Trong PowerBI, quá trình chủ yếu diễn ra là giúp dữ liệu trở nên sạch hơn, rõ ràng hơn và phân tích mô tả, vẽ biểu đồ. Các bước thực hiện có thể được tóm tắt lại như sau:
+
+### Làm sạch, tổ chức dữ liệu
+
+1. Thêm các cột điều kiện để chứa tên dữ liệu (ví dụ các dữ liệu ở dạng "value" được đổi sang "name"), đổi tên cột để dữ liệu trở nên dễ hiểu hơn.
+2. Đổi kiểu dữ liệu, thay đổi thứ tự lọc để cột hiển thị theo đúng giá trị và quy luật kỳ vọng.
+3. Tạo các bảng dimensions và loại bỏ các summarizations để PowerBI hoạt động không xảy ra lỗi.
+
+Các bước đã thực hiện chi tiết đối với từng bảng dữ liệu có thể được xem dưới đây:
+
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/user-attachments/assets/3db5fb43-6dd3-4af9-9aed-75739419fbb5">
+    <p align="center">
+    <i>Bảng fact_abst_dt</i>
+    </p>
+</p>
+
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/user-attachments/assets/49516caa-13de-4308-b24e-219d5067e9c0">
+    <p align="center">
+    <i>Bảng dim_month</i>
+    </p>
+</p>
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/user-attachments/assets/43497105-2212-4e5f-91cb-5ae75441eec9">
+    <p align="center">
+    <i>Bảng dim_diw</i>  
+    </p>
+</p>
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/user-attachments/assets/f0df2d30-a188-434b-8209-4ba88115568b">
+    <p align="center">
+    <i>Bảng dim_edu</i>
+    </p>
+</p>
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/user-attachments/assets/1bdbfe45-9bd5-496f-92e2-8eebe68f2632">
+    <p align="center">
+    <i>Bảng dim_reason</i>
+    </p>
+</p>
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/user-attachments/assets/9d269d84-2d0a-44dc-bcdf-c6bed784ad39">
+    <p align="center">
+    <i>Bảng dim_season</i>
+    </p>
+</p>
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/user-attachments/assets/7e9987bf-34a6-4516-9aa8-f126f1ba26df">
+    <p align="center">
+    <i>Bảng dim_atih_prediction</i>
+    </p>
+</p>
+
+Các bảng dimension, fact có thể được xem tại [đây](https://github.com/hinmfm/absenteeism-prediction/tree/main/analysis/dimensions-facts).
+
+### Trực quan hóa dữ liệu
+
+Bước này chỉ đơn thuần thực hiện các biểu đồ trực quan dựa trên tư duy kinh doanh và phân loại biểu đồ phù hợp.
