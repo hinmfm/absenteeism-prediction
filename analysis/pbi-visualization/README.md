@@ -47,7 +47,14 @@ Mỗi nhân viên vắng mặt có khối lượng công việc trung bình hằ
 ## Các thông tin giá trị.
 ### Các xu hướng về thời gian.
 
-- Các tháng khiến công ty 
+- Trung bình mỗi tháng công ty <b>mất 394 giờ làm việc</b>, với các <b>tháng 3, 4, 7, 11, 12 là các tháng nhân viên vắng mặt lâu hơn trung bình</b>.
+  - <b>Tháng 3</b> là tháng có <b>nhiều nhân viên vắng mặt nhất</b>, đồng thời <b>vắng lâu nhất</b> với <b>87 nhân viên báo cáo vắng và 765 giờ làm việc bị mất</b>.
+  - <b>Tháng 2 và tháng 10</b> là hai tháng có <b>nhiều nhân viên báo vắng thứ hai và thứ ba</b>, với lần lượt <b>72 và 71 nhân viên báo vắng</b> trong các tháng này.
 
-![image](https://github.com/user-attachments/assets/6f56acf9-7a4a-4d10-9495-c2a56c840e06)
+- <b>Số giờ vắng/ngày</b> của công ty là <b>676 giờ</b>, với các <b>thứ đầu tuần (thứ Hai, Ba, Tư)</b> và ngày làm việc (chính thức) cuối cùng trong tuần <b>(thứ Sáu)</b> có <b>tổng thời gian vắng mặt lâu hơn trung bình.</b>
+  - <b>Thứ Hai, Ba, Tư đều có trên 1000 giờ vắng mặt</b>, <b>nhiều hơn so với các ngày còn lại</b> trong tuần.
+  - Tuy có thể là ngày OT và tổng cộng chỉ có <b>4 người báo vắng</b> trong suốt khoảng thời gian của dữ liệu nhưng <b>thứ Bảy lại có số giờ vắng trung bình cao thứ hai (8.5 giờ)</b>, chỉ <b>kém gần 1 giờ</b> so với <b>thứ Hai (9.4 giờ).</b>
 
+![image](https://github.com/user-attachments/assets/06215e0c-3ec7-42c8-b1e1-2f79b7b04df6)
+
+### Sự ảnh hưởng của các yếu tố đời sống.
