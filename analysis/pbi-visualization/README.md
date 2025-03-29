@@ -139,7 +139,7 @@ Trọng số đối với dự đoán của đã được mô tả khá kỹ tro
 
 ### Kết quả dự đoán
 
-Tổng số giờ vắng được dự đoán xấp xỉ 2982 giờ.
+<b>Tổng số giờ vắng được dự đoán xấp xỉ 2982 giờ.</b>
 
 <p align="center" width="100%">
     <img width="33%" src="https://github.com/user-attachments/assets/985c3c55-efc3-407a-9bf6-1174c47331de">
@@ -149,12 +149,12 @@ Kết quả dự đoán chi tiết về số giờ vắng mặt theo mô hình h
 
 #### Lý do và thời gian
 
-- Mùa Xuân được dự đoán là mùa gây vắng mặt lâu nhất với hơn 875 giờ làm việc được dự đoán bị mất vào mùa này, dựa trên biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO MÙA.
-- Củng cố thêm cho dữ liệu này, từ biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO THÁNG, các tháng mùa Xuân (tháng 1, 2, 3) cũng sẽ được dự kiến có số thời gian vắng mặt nhiều hơn so với các tháng còn lại.
-    - Các tháng được dự đoán sẽ có số giờ vắng mặt nhiều hơn trung bình lầ tháng 2, 3, 5, 7, 8, 10, 11.
-- Đối với các ngày trong tuần, ta chỉ dự đoán tất cả các ngày việc chính thức (từ thứ Hai tới thứ Sáu) do mẫu số để phân tích của các ngày cuối tuần quá nhỏ (chỉ có lần lượt 4 và 9 nhân viên vắng mặt).
-    - Dựa trên biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO THỨ, thứ Hai, Ba, Tư, Năm được dự đoán sẽ có thời gian vắng mặt nhiều hơn trung bình. Thứ Hai và thứ Tư dự kiến sẽ là hai thứ làm mất nhiều thời gian làm việc nhất.
-- Lý do A và lý do C được dự đoán sẽ là 2 lý do gây vắng mặt nhiều nhất, dựa trên biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO LÝ DO. Lý do B không được đưa vào dự đoán do có mẫu số quá ít (chỉ có 6 nhân viên vắng mặt vì lý do B)
+- <b>Mùa Xuân</b> được dự đoán là mùa <b>gây vắng mặt lâu nhất</b> với <b>hơn 875 giờ làm việc được dự đoán bị mất</b> vào mùa này, dựa trên biểu đồ <b>DỰ ĐOÁN GIỜ VẮNG THEO MÙA.</b>
+- Củng cố thêm cho dữ liệu này, từ biểu đồ <b>DỰ ĐOÁN GIỜ VẮNG THEO THÁNG,</b> các <b>tháng mùa Xuân (tháng 1, 2, 3)</b> cũng sẽ được dự kiến có số <b>thời gian vắng mặt nhiều hơn so với các tháng còn lại.</b>
+    - Các tháng được dự đoán sẽ có số <b>giờ vắng mặt nhiều hơn trung bình</b> lầ <b>tháng 2, 3, 5, 7, 8, 10, 11.</b>
+- Đối với các <b>ngày trong tuần</b>, ta chỉ <b>dự đoán tất cả các ngày việc chính thức (từ thứ Hai tới thứ Sáu)</b> do mẫu số để phân tích của các ngày cuối tuần quá nhỏ (chỉ có lần lượt 4 và 9 nhân viên vắng mặt).
+    - Dựa trên biểu đồ <b>DỰ ĐOÁN GIỜ VẮNG THEO THỨ</b>, <b>thứ Hai, Ba, Tư, Năm</b> được dự đoán sẽ có <b>thời gian vắng mặt nhiều hơn trung bình</b>. <b>Thứ Hai và thứ Tư</b> dự kiến sẽ là hai thứ làm <b>mất nhiều thời gian làm việc nhất.</b>
+- <b>Lý do A và lý do C</b> được dự đoán sẽ là 2 lý do <b>gây vắng mặt lâu nhất</b>, dựa trên biểu đồ <b>DỰ ĐOÁN GIỜ VẮNG THEO LÝ DO</b>. <b>Lý do B</b> không được đưa vào dự đoán do có <b>mẫu số quá ít (chỉ có 6 nhân viên vắng mặt vì lý do B).</b>
 
 <p align="center" width="100%">
     <img width="100%" src="https://github.com/user-attachments/assets/d409469d-372b-4a69-8d63-020a83288524">
@@ -162,12 +162,12 @@ Kết quả dự đoán chi tiết về số giờ vắng mặt theo mô hình h
 
 #### Yếu tố đời sống
 
-- Các nhân viên học Đại học sẽ vắng lâu hơn, một phần do họ chiếm đa số trong những nhân viên vắng. Do vậy, có thể đây là một dự đoán không quá có ý nghĩa.
-- Có sự chênh lệch không quá lớn xét trên mốc trung bình về dự đoán giờ vắng theo độ tuổi, dựa trên biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO TUỔI.
-- Các nhân viên có BMI ở mức bình thường được dự đoán sẽ vắng nhiều hơn so với các mức BMI khác.
-- Trong 2 biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO SỐ CON CÁI và DỰ ĐOÁN GIỜ VẮNG THEO SỐ THÚ CƯNG, số con cái và số thú cưng > 2 đều bị loại khỏi dự đoán do mẫu số quá ít.
-  - Những nhân viên không có con được đự doán có thời gian vắng nhiều hơn trung bình.
-  - Những nhân viên không có thú cưng được dự đoán có thời gian vắng nhiều hơn trung bình.
+- Các <b>nhân viên học Đại học sẽ vắng lâu hơn</b>, một phần do họ chiếm đa số trong những nhân viên vắng. Do vậy, có thể đây là một dự đoán không quá có ý nghĩa.
+- Có sự <b>chênh lệch không quá lớn</b> xét trên mốc trung bình về dự đoán <b>giờ vắng theo độ tuổi</b>, dựa trên biểu đồ <b>DỰ ĐOÁN GIỜ VẮNG THEO TUỔI</b>.
+- Các nhân viên có <b>BMI ở mức bình thường</b> được dự đoán sẽ <b>vắng lâu</b> hơn so với các mức BMI khác, dựa trên biểu đồ <b>DỰ ĐOÁN GIỜ VẮNG THEO BMI.</b>
+- Trong 2 biểu đồ <b>DỰ ĐOÁN GIỜ VẮNG THEO SỐ CON CÁI và DỰ ĐOÁN GIỜ VẮNG THEO SỐ THÚ CƯNG</b>, <b>số con cái và số thú cưng > 2</b> đều bị <b>loại khỏi dự đoán do mẫu số quá ít.</b>
+  - <b>Những nhân viên không có con</b> được đự doán có thời gian <b>vắng lâu hơn</b> trung bình.
+  - <b>Những nhân viên không có thú cưng</b> được dự đoán có thời gian <b>vắng lâu hơn</b> trung bình.
 
 <p align="center" width="100%">
     <img width="100%" src="https://github.com/user-attachments/assets/8f4f1f68-39c4-4b95-a91b-b3a8515dbd09">
@@ -175,9 +175,9 @@ Kết quả dự đoán chi tiết về số giờ vắng mặt theo mô hình h
 
 #### Yếu tố công việc
 
-- Dựa trên biểu DỰ ĐOÁN GIỜ VẮNG THEO CP ĐI LẠI, dù những nhân viên vắng lâu nhất có chi phí đi lại thấp hơn trung bình, phần lớn số giờ làm việc bị mất sẽ do đội ngũ nhân viên có chi phí đi lại cao hơn trung bình gây ra.
-- Các nhân viên nhà gần với công ty sẽ vắng lâu hơn, đồng thời số giờ làm việc bị mất trên trung bình cũng thuộc nhóm nhân viên này, dựa trên biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO KC TỚI CTY.
-- Dù một tập hợp những nhân viên có khối lượng công việc hằng ngày lớn được dự đoán sẽ vắng mặt lâu nhất, những nhân viên làm ít hơn sẽ vắng lâu hơn, theo biểu đồ DỰ ĐOÁN GIỜ VẮNG THEO TBKLCVHN.
+- Dựa trên biểu <b>DỰ ĐOÁN GIỜ VẮNG THEO CP ĐI LẠI</b>, dù những nhân viên <b>vắng lâu nhất</b> có <b>chi phí đi lại thấp hơn trung bình</b>, <b>phần lớn số giờ làm việc bị mất</b> sẽ do đội ngũ <b>nhân viên có chi phí đi lại cao hơn trung bình</b> gây ra.
+- Các <b>nhân viên nhà gần với công ty sẽ vắng lâu hơn</b>, đồng thời <b>số giờ làm việc bị mất trên trung bình</b> cũng thuộc nhóm nhân viên này, dựa trên biểu đồ <b>DỰ ĐOÁN GIỜ VẮNG THEO KC TỚI CTY.</b>
+- Dù một tập hợp những <b>nhân viên có khối lượng công việc hằng ngày lớn</b> được dự đoán sẽ <b>vắng mặt lâu nhất</b>, những <b>nhân viên làm ít hơn sẽ vắng lâu hơn</b>, theo biểu đồ <b>DỰ ĐOÁN GIỜ VẮNG THEO TBKLCVHN</b>.
 
 <p align="center" width="100%">
     <img width="100%" src="https://github.com/user-attachments/assets/81650aa8-338f-408c-83cf-5a12860ef562">
