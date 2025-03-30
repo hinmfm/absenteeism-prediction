@@ -134,7 +134,7 @@ Các bước tiếp theo đã được mô tả tương đối chi tiết trong 
 Trọng số đối với dự đoán của đã được mô tả khá kỹ trong file [absenteeism-predictive-analysis.ipynb](https://github.com/hinmfm/absenteeism-prediction/blob/main/prediction-data/absenteeism-predictive-analysis.ipynb). Người đọc có thể tham khảo thêm tại file này.
 
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/user-attachments/assets/779f2580-aec8-4fde-8136-5750d57ef6a3">
+    <img width="33%" src="https://github.com/user-attachments/assets/779f2580-aec8-4fde-8136-5750d57ef6a3">
 </p>
 
 ### Kết quả dự đoán
